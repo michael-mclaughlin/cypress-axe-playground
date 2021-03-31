@@ -1363,66 +1363,6 @@ const App = () => {
                         <ResourcesIcon />
                     </InfoLink>
                     <InfoLink
-                        id="link-35"
-                        href="https://plewis.pages.corp.indeed.com/a11y-checklists/"
-                        messageChildren={
-                            "Go to Indeed's accesibility checklist to make your web presence accessible."
-                        }
-                        title="Click this link to go to Indeed's accesibility checklist to make your web presence accessible."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-36"
-                        href="https://docs.google.com/presentation/d/116f0Up83qDONgrN_62sSxXRNnoE3A-BWCLsR2F2-Aag/edit#slide=id.g80d03e662f_0_175"
-                        messageChildren={
-                            "Go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility."
-                        }
-                        title="Click this link to go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-37"
-                        href="https://wiki.indeed.com/pages/viewpage.action?spaceKey=a11y&title=Accessibility+FAQ"
-                        messageChildren={
-                            "Go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence."
-                        }
-                        title="Click this link to go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-38"
-                        href="https://wiki.indeed.com/display/a11y/Accessibility+testing+with+axe-core"
-                        messageChildren={
-                            "Go to Indeed's Accessibility testing with axe-core wiki page in confluence."
-                        }
-                        title="Click this link to go to Indeed's Accessibility testing with axe-core wiki page in confluence."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-39"
-                        href="https://wiki.indeed.com/display/a11y/DEG+Accessibility"
-                        messageChildren={
-                            "Go to Indeed's Delivery Engineering Accessibility Hub wiki page in confluence."
-                        }
-                        title="Click this link to go to Indeed's Delivery Engineering Accessibility Hub wiki page in confluence."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
                         id="link-40"
                         href="https://openbase.io/js/cypress-axe/documentation"
                         messageChildren={
