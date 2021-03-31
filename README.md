@@ -1,4 +1,4 @@
-# CYPRESS-PLAYGROUND
+# CYPRESS-AXE-PLAYGROUND
 
 This is a playground to become familiar with the automation possibilities using AXE-Core/ Cypress/ Pa11y/ Pa11y-axe.
 
@@ -53,8 +53,7 @@ You will also need to be added as a member to the repo. (Default member access: 
 Contact Mike Mclaughlin through:
 
 ```
-work email: mclaughlin@indeed.com
-work slack: @mclaughlin
+email: mjmjr@fastmail.com
 ```
 
 to receive your member access. (Default member access: developer)
@@ -62,7 +61,7 @@ to receive your member access. (Default member access: developer)
 Clone the repo...then, save it somewhere on your computer where you'll remember its location. (I use my Documents folder):
 
 ```
-git clone https://code.corp.indeed.com/mclaughlin/cypress-playground.git
+git clone https://github.com/michael-mclaughlin/cypress-axe-playground.git
 ```
 
 Open your editor/IDE and bring the whole project into your editor.
@@ -186,10 +185,10 @@ To run the cypress with AXE in the gui run:
 npm run cy:axe
 ```
 
-To run the cypress with AXE on a specific page:
+To run the cypress reporter to save the webpage results:
 
 ```
-npm run cy:axe:webpage
+npm run cy:reporter
 ```
 
 ### PA11Y Individual commands
@@ -224,6 +223,5 @@ npm run pa11y:reporter
 
 ```
 Mike Mclaughlin
-slack: @mclaughlin
-email: mclaughlin@indeed.com
+email: mjmjr@fatsmail.com
 ```
