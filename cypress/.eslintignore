@@ -1,0 +1,5 @@
+dist/
+cypress/intergration/examples
+node_modules
+webpack.config.*
+
