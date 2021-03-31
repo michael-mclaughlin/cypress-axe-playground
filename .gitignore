@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+/cypress/node_modules
+build/
+*.iml
+.idea/
+axe
+# General
+.DS_Store
+.AppleDouble
+.LSOverride

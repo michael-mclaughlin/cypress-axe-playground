@@ -1,0 +1,4 @@
+dist/
+cypress/
+node_modules
+webpack.config.*
