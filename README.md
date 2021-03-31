@@ -69,7 +69,7 @@ After that, use these commands (in order they are listed) to change directories 
 These 2 commands will provide you with all the necessary dependencies .etc that are needed to run the project. (See the `package.json` at the root level of the application to learn what packages are being used for this projects. See more about `npm install` here: `https://docs.npmjs.com/cli/v6/commands/npm-install`)
 
 ```
-cd <directory where you stored the repo>/cypress-playground
+cd <directory where you stored the repo>/cypress-axe-playground
 ```
 
 ```

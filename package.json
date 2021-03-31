@@ -22,7 +22,7 @@
     "pa11y:reporter:html": "pa11y --reporter json http://localhost:8080 > ./public/results.html",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.tsx' --write",
     "prettier-watch": "onchange 'src/**/*.tsx' -- prettier --write {{changed}}",
-    "start:test": "webpack serve --config ./webpack.config.js --mode development & start-server-and-test start http://localhost:8080 cy:open & pa11y --runner axe http://localhost:8080",
+    "start:test": "nodemon server.js & webpack serve --config ./webpack.config.js --mode development & start-server-and-test start http://localhost:8080 cy:open & pa11y --runner axe http://localhost:8080",
     "start:test:linux": "webpack serve --config ./webpack.config.js --mode development & start-server-and-test xdg-open http://localhost:8080 cy:open & pa11y --runner axe http://localhost:8080"
   },
   "repository": {
