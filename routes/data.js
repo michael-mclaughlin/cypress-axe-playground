@@ -2,8 +2,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable no-undef */
 const userRoutes = (app, fs) => {
-    // variables
-    const dataPath = './axe/webpage-results/results.json';
+    //TODO: FIGURE OUT A WAY TO UPDATE CHROME DRIVER TO USE THIS PATH: const dataPath = './axe/webpage-results/results.json';
+    const dataPath = './axe/infoLinkData/infoData.json';
 
     // READ
     app.get('/data', (req, res) => {

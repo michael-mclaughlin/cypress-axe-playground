@@ -5,7 +5,7 @@ import Input from './foundations/input/index';
 import Form from './containers/form/index';
 import Fieldset from './containers/fieldset/index';
 import Legend from './foundations/legend/index';
-import ContentInfo from './foundations/Content-info/index';
+// import ContentInfo from './foundations/Content-info/index';
 import Div from './containers/div/index';
 import Section from './containers/section/index';
 import Header from './containers/header/index';
@@ -35,63 +35,94 @@ import OpenBookWithBulbIcon from '-!svg-react-loader?name=Icon!../../Icons/open-
 import ComputerWithCap from '-!svg-react-loader?name=Icon!../../Icons/computer-with-cap.svg';
 import ButtonIconDropdown from './foundations/button-icon-dropdown/index';
 
-//TODO: figure out a way to present error report data below only works for a 1 time not for error updates...will need to do more research
-export const MyData = () => {
+//TODO: UPDATE CHROMEDRIVER TO MATCH THE CURRENT CHROM VERSION: FIGURE OUT A BETTER WAY TO NOT HAVE TO MANUALLY UPDATE CHROME DRIVER
+// export const MyData = () => {
+//     const [data, setData] = useState([]);
+//     const [violationData, setViolationData] = useState([]);
+//     async function getData() {
+//         const response = await fetch('http://localhost:3001/data');
+//         const responseData = await response.json();
+//         setData(responseData);
+//         setViolationData(responseData[0].violations);
+//     }
+//     useEffect(() => {
+//         getData();
+//     }, [data]);
+//     return (
+//         <div>
+//             {data.map((item, index) => (
+//                 <ErrorRuleParentContainer key={`${item}-${index}`}>
+//                     {violationData.map((newItem: any, index: number) => {
+//                         return (
+//                             <ContentInfo
+//                                 key={`pa11y-data-content-info-${index}`}
+//                                 id={`pa11y-data-content-info-${index}`}
+//                                 className="Pa11y-data-content-info"
+//                                 messageChildren={newItem.description}
+//                                 headingChildren={newItem.help}
+//                                 errorTypeChildren={`Impact: ${newItem.impact}, Error Type: ${newItem.id}`}
+//                                 contextChildren={newItem.helpUrl}
+//                                 footerChildren={
+//                                     <div>
+//                                         {newItem.nodes.map((node: any, index: number) => {
+//                                             return (
+//                                                 <ErrorRuleContainer key={`${node}-${index}`}>
+//                                                     <ErrorRuleSummaryFailureContainer
+//                                                         key={`${node}-${node.failureSummary}-${index}`}
+//                                                     >
+//                                                         {node.failureSummary}
+//                                                     </ErrorRuleSummaryFailureContainer>
+//                                                     <ErrorRuleCodeContainer>
+//                                                         <ErrorRuleHtmlContainer
+//                                                             key={`${node}-${node.html}-${index}`}
+//                                                         >
+//                                                             {node.html}
+//                                                         </ErrorRuleHtmlContainer>
+//                                                     </ErrorRuleCodeContainer>
+//                                                 </ErrorRuleContainer>
+//                                             );
+//                                         })}
+//                                     </div>
+//                                 }
+//                             >
+//                                 <OpenBookWithBulbIcon />
+//                             </ContentInfo>
+//                         );
+//                     })}
+//                 </ErrorRuleParentContainer>
+//             ))}
+//         </div>
+//     );
+// };
+//TODO: END
+
+export const InfoLinkData = () => {
     const [data, setData] = useState([]);
-    const [violationData, setViolationData] = useState([]);
     async function getData() {
         const response = await fetch('http://localhost:3001/data');
         const responseData = await response.json();
         setData(responseData);
-        setViolationData(responseData[0].violations);
     }
     useEffect(() => {
         getData();
     }, [data]);
     return (
-        <div>
+        <LinkContainer className="references-link-container">
             {data.map((item, index) => (
-                <ErrorRuleParentContainer key={`${item}-${index}`}>
-                    {violationData.map((newItem: any, index: number) => {
-                        return (
-                            <ContentInfo
-                                key={`pa11y-data-content-info-${index}`}
-                                id={`pa11y-data-content-info-${index}`}
-                                className="Pa11y-data-content-info"
-                                messageChildren={newItem.description}
-                                headingChildren={newItem.help}
-                                errorTypeChildren={`Impact: ${newItem.impact}, Error Type: ${newItem.id}`}
-                                contextChildren={newItem.helpUrl}
-                                footerChildren={
-                                    <div>
-                                        {newItem.nodes.map((node: any, index: number) => {
-                                            return (
-                                                <ErrorRuleContainer key={`${node}-${index}`}>
-                                                    <ErrorRuleSummaryFailureContainer
-                                                        key={`${node}-${node.failureSummary}-${index}`}
-                                                    >
-                                                        {node.failureSummary}
-                                                    </ErrorRuleSummaryFailureContainer>
-                                                    <ErrorRuleCodeContainer>
-                                                        <ErrorRuleHtmlContainer
-                                                            key={`${node}-${node.html}-${index}`}
-                                                        >
-                                                            {node.html}
-                                                        </ErrorRuleHtmlContainer>
-                                                    </ErrorRuleCodeContainer>
-                                                </ErrorRuleContainer>
-                                            );
-                                        })}
-                                    </div>
-                                }
-                            >
-                                <OpenBookWithBulbIcon />
-                            </ContentInfo>
-                        );
-                    })}
-                </ErrorRuleParentContainer>
+                <InfoLink
+                    key={`${item.id}-${index}`}
+                    id={`${item.id}-${index}`}
+                    href={item.href}
+                    messageChildren={item.messageChildren}
+                    title={item.title}
+                    className={item.className}
+                    target={item.target}
+                >
+                    <ResourcesIcon />
+                </InfoLink>
             ))}
-        </div>
+            ;
+        </LinkContainer>
     );
 };
 
@@ -104,7 +135,7 @@ const App = () => {
     const introRef = useRef(null);
     const referencesRef = useRef(null);
     const finalChallengeRef = useRef(null);
-    const pa11yReportsRef = useRef(null);
+    // const pa11yReportsRef = useRef(null);
     const handleScroll = () => {
         formRef.current.scrollIntoView({ behavior: 'smooth' });
     };
@@ -129,9 +160,9 @@ const App = () => {
     const handleScrollFinalChallenge = () => {
         finalChallengeRef.current.scrollIntoView({ behavior: 'smooth' });
     };
-    const handleScrollPa11yReports = () => {
-        pa11yReportsRef.current.scrollIntoView({ behavior: 'smooth' });
-    };
+    // const handleScrollPa11yReports = () => {
+    //     pa11yReportsRef.current.scrollIntoView({ behavior: 'smooth' });
+    // };
 
     return (
         <AppContainer>
@@ -221,7 +252,7 @@ const App = () => {
                     >
                         <ComputerWithCap />
                     </TextLink>
-                    <TextLink
+                    {/* <TextLink
                         id="link-8"
                         title="link to references"
                         className="references-reference-link"
@@ -229,7 +260,7 @@ const App = () => {
                         onClick={handleScrollPa11yReports}
                     >
                         <ComputerWithCap />
-                    </TextLink>
+                    </TextLink> */}
                 </NavContainer>
             </Header>
             <HomeTargetContainer>
@@ -914,7 +945,8 @@ const App = () => {
                 </Header>
                 <InstructionsContainer className="Instructions-container color-contrast-instructions-container">
                     <InstructionsParagraph className="section-instructions">
-                        Choose a swatch from the <strong>Aurora swatch collection</strong> OR use
+                        Choose a swatch from the{' '}
+                        <strong>programmed swatch collection in each color picker</strong> OR use
                         the inputs to search for a custom color for{' '}
                         <strong>background color</strong> then, change the{' '}
                         <strong>font color</strong> the same way.
@@ -1089,14 +1121,15 @@ const App = () => {
                 </Header>
                 <InstructionsContainer className="Instructions-container color-contrast-font-size-instructions-container">
                     <InstructionsParagraph className="section-instructions">
-                        Below you will see the official <strong>Aurora font sizes</strong> within
-                        this section starting from largest to smallest.
+                        Below you will see <strong>font sizes</strong> within this section starting
+                        from largest to smallest.
                     </InstructionsParagraph>
                     <InstructionsParagraph className="section-instructions">
-                        Choose a swatch from the <strong>Aurora swatch collection</strong> OR use
+                        Choose a swatch from the{' '}
+                        <strong>programmed swatch collection in each color picker</strong> OR use
                         the inputs to search for a custom color for <strong>font color</strong>{' '}
                         then, change the <strong>background color</strong> to see differences with
-                        contrast ratio combined with the <strong>Aurora font sizes</strong>.
+                        contrast ratio combined with the <strong>font sizes</strong>.
                     </InstructionsParagraph>
                     <InstructionsParagraph className="section-instructions">
                         Once you have chosen your colors, open a{' '}
@@ -1264,273 +1297,7 @@ const App = () => {
                         <pre>All of the references below were used to create this repo...</pre>
                     </strong>
                 </InstructionsContainer>
-
-                <LinkContainer className="references-link-container">
-                    <InfoLink
-                        id="link-27"
-                        href="https://www.w3.org/WAI/test-evaluate/preliminary/"
-                        messageChildren={
-                            'Go to w3.org to learn more about doing a preliminary checklist for accessibility.'
-                        }
-                        title="Click this link to go to w3.org to learn more about doing a preliminary checklist for accessibility."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-28"
-                        href="https://www.w3.org/WAI/tutorials/forms/"
-                        messageChildren={
-                            'Go to w3.org to learn more about forms and how you can make them accessible.'
-                        }
-                        title="Click this link to go to w3.org to learn more about forms and how you can make them accessible."
-                        className="references-reference-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-29"
-                        href="https://webaim.org/techniques/semanticstructure/#nature"
-                        messageChildren={
-                            'Go to WebAIM to learn more about how to use correct DOM structure to make your web presence accessible.'
-                        }
-                        title="Click this link to go to WebAIM to learn more about how to use correct DOM structure to make your web presence accessible."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-30"
-                        href="https://webaim.org/articles/contrast/"
-                        messageChildren={
-                            'Go to WebAIM to learn more about how proper color contrast ratio to make your web presence accessible.'
-                        }
-                        title="Click this link to go to WebAIM to learn more about how proper color contrast ratio to make your web presence accessible."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-31"
-                        href="https://webaim.org/techniques/fonts/"
-                        messageChildren={
-                            'Go to WebAIM to learn more about how Typefaces and Fonts can be used to make your web presence accessible.'
-                        }
-                        title="Click this link to go to WebAIM to learn more about how Typefaces and Fonts can be used to make your web presence accessible."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-32"
-                        href="https://webaim.org/techniques/textlayout/"
-                        messageChildren={
-                            'Go to WebAIM to learn more about how Text Layout can be used to make your web presence accessible.'
-                        }
-                        title="Click this link to go to WebAIM to learn more about how Text Layout can be used to make your web presence accessible."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-33"
-                        href="https://webaim.org/resources/contrastchecker/"
-                        messageChildren={
-                            'Go to WebAIM to learn more about how to use color contrast checkers to make your web presence accessible.'
-                        }
-                        title="Click this link to go to WebAIM to learn more about how to use color contrast checkers to make your web presence accessible."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-34"
-                        href="https://webaim.org/projects/screenreadersurvey8/"
-                        messageChildren={
-                            'Go to WebAIM to learn more about one of their screen reader surveys.'
-                        }
-                        title="Click this link to go to WebAIM to learn more about one of their screen reader surveys."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-40"
-                        href="https://openbase.io/js/cypress-axe/documentation"
-                        messageChildren={
-                            'Go to openbase and read about cypress-axe and axe-core install and implementation docs.'
-                        }
-                        title="Click this link to go to openbase and read about cypress-axe and axe-core install and implementation docs."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-41"
-                        href="https://blog.sapegin.me/til/testing/detecting-accessibility-issues-on-ci-with-cypress-axe/"
-                        messageChildren={
-                            "Go to Artem Sapegin's blog and read about cypress-axe/ axe-core and how to detect and run the tests within the GUI."
-                        }
-                        title="Click this link to go to Artem Sapegin's blog and read about cypress-axe/ axe-core and how to detect and run the tests within the GUI."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-42"
-                        href="https://vanslaars.io/blog/introducing-cypress-axe/"
-                        messageChildren={
-                            "Go to Andy Van Slaars's blog and read an introduction to cypress-axe."
-                        }
-                        title="Click this link to go to Andy Van Slaars's blog and read an introduction to cypress-axe."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-43"
-                        href="https://inclusive-components.design/"
-                        messageChildren={
-                            'Go to the Inclusive Components blog and read more about accessibility and components.'
-                        }
-                        title="Click this link to go to the Inclusive Components blog and read more about accessibility and components."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-44"
-                        href="https://www.sitepoint.com/automated-accessibility-checking-with-axe/"
-                        messageChildren={
-                            'Go to Sitepoint blog and read more about automated accessibility checking with axe.'
-                        }
-                        title="Click this link to go to Sitepoint blog and read more about automated accessibility checking with axe."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-45"
-                        href="https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility"
-                        messageChildren={
-                            "Go to Tim Deschryver's blog and read more about setting up Cypress with AXE for accessibility."
-                        }
-                        title="Click this link to go to Tim Deschryver's blog and read more about setting up Cypress with AXE for accessibility."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-46"
-                        href="https://developer.aliyun.com/mirror/npm/package/eslint-plugin-jsx-a11y"
-                        messageChildren={
-                            'Go learn about eslint-plugin-jsx-a11y static AST checker for accessibility rules on JSX elements.'
-                        }
-                        title="Click this link to go learn about eslint-plugin-jsx-a11y static AST checker for accessibility rules on JSX elements."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-47"
-                        href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y"
-                        messageChildren={
-                            'Go to the GitHub repo about eslint-plugin-jsx-a11y rules and how to use them within an application.'
-                        }
-                        title="Click this link to go to the GitHub repo about eslint-plugin-jsx-a11y rules and how to use them within an application."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-48"
-                        href="https://reactjs.org/docs/accessibility.html"
-                        messageChildren={
-                            'Go to the ReactJs website to learn about how they accomodate for accessibility.'
-                        }
-                        title="Click this link to go to the ReactJs website to learn about how they accomodate for accessibility."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-49"
-                        href="https://github.com/dequelabs/axe-core"
-                        messageChildren={
-                            'Go to the deque labs GitHub repo to learn about axe-core.'
-                        }
-                        title="Click this link to go to the deque labs GitHub repo to learn about axe-core."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-50"
-                        href="https://www.deque.com/axe/core-documentation/api-documentation/#parameters-axerun"
-                        messageChildren={
-                            'Go to the deque labs API documentation to learn more about AXE technologies and how to configure them.'
-                        }
-                        title="Click this link to go to the deque labs API documentation to learn more about AXE technologies and how to configure them."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-51"
-                        href="https://www.deque.com/blog/how-to-test-for-accessibility-with-cypress/"
-                        messageChildren={
-                            "Go to the deque labs blog to learn more about how to test for accessibility with Cypress while intergating axe-core into your project. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work."
-                        }
-                        title="Click this link to go to the deque labs blog to learn more about how to test for accessibility with Cypress while intergating axe-core into your project. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-52"
-                        href="https://www.deque.com/blog/introducing-axe-linter/"
-                        messageChildren={
-                            "Go to the deque labs blog to learn more about their new Automated Source Code Accessibility Checker. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work."
-                        }
-                        title="Click this link to go to the deque labs blog to learn more about their new Automated Source Code Accessibility Checker. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                    <InfoLink
-                        id="link-53"
-                        href="https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell"
-                        messageChildren={
-                            'Go to Cypress.io to learn everything you need to know about Cypress.  The docs are exstensive and always updated with current info.'
-                        }
-                        title="Click this link to go to Cypress.io to learn everything you need to know about Cypress.  The docs are exstensive and always updated with current info."
-                        className="references-link"
-                        target="_blank"
-                    >
-                        <ResourcesIcon />
-                    </InfoLink>
-                </LinkContainer>
+                <InfoLinkData />
             </Section>
             <FinalChallengeTargetContainer>
                 <Target id="final-challenge-target" ref={finalChallengeRef} />
@@ -1655,7 +1422,7 @@ const App = () => {
                     </Div>
                 </Div>
             </Section>
-            <Pa11yReportTargetContainer>
+            {/* <Pa11yReportTargetContainer>
                 <Target id="error-section-target" ref={pa11yReportsRef} />
                 <InfoLink
                     id="link-55"
@@ -1673,8 +1440,8 @@ const App = () => {
                 >
                     <ResourcesIcon />
                 </InfoLink>
-            </Pa11yReportTargetContainer>
-            <Section
+            </Pa11yReportTargetContainer> */}
+            {/* <Section
                 id="pa11y-reports-section"
                 className="Introduction-section"
                 dataCy="pa11y-reports-section"
@@ -1692,27 +1459,27 @@ const App = () => {
                 <ReportsContainer>
                     <MyData />
                 </ReportsContainer>
-            </Section>
+            </Section> */}
         </AppContainer>
     );
 };
-const ErrorRuleParentContainer = styled.div`
-    color: #ffffff;
-`;
-const ErrorRuleContainer = styled.div`
-    padding: 1rem 1.5rem;
-    background-color: #051930;
-    margin: 1rem 0;
-    border-radius: 0.25rem;
-`;
-const ErrorRuleHtmlContainer = styled.pre`
-    color: #2ddfff;
-    background-color: #030619;
-    padding: 1rem 1.5rem;
-    white-space: pre-wrap;
-`;
-const ErrorRuleCodeContainer = styled.code``;
-const ErrorRuleSummaryFailureContainer = styled.code``;
+// const ErrorRuleParentContainer = styled.div`
+//     color: #ffffff;
+// `;
+// const ErrorRuleContainer = styled.div`
+//     padding: 1rem 1.5rem;
+//     background-color: #051930;
+//     margin: 1rem 0;
+//     border-radius: 0.25rem;
+// `;
+// const ErrorRuleHtmlContainer = styled.pre`
+//     color: #2ddfff;
+//     background-color: #030619;
+//     padding: 1rem 1.5rem;
+//     white-space: pre-wrap;
+// `;
+// const ErrorRuleCodeContainer = styled.code``;
+// const ErrorRuleSummaryFailureContainer = styled.code``;
 const HomeTargetContainer = styled.div`
     height: 14rem;
 `;
@@ -1896,35 +1663,35 @@ const FinalChallengeTargetContainer = styled.div`
         }
     }
 `;
-const Pa11yReportTargetContainer = styled.div`
-    height: 15rem;
-    padding: 0 6rem;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    @media (max-width: 1475px) {
-        height: 24rem;
-    }
-    & .references-link {
-        height: 10rem;
-        padding: 2rem 0.75rem;
-        width: 100%;
-        border-radius: 0.5rem;
-        & strong {
-            color: #eeeeee;
-            & pre {
-                font-size: 1.5rem;
-                letter-spacing: 1.5px;
-                padding: 0.5rem 0;
-                white-space: pre-wrap;
-            }
-        }
-        & .Link-message-container {
-            width: inherit;
-        }
-    }
-`;
+// const Pa11yReportTargetContainer = styled.div`
+//     height: 15rem;
+//     padding: 0 6rem;
+//     display: flex;
+//     flex-flow: row nowrap;
+//     align-items: center;
+//     justify-content: center;
+//     @media (max-width: 1475px) {
+//         height: 24rem;
+//     }
+//     & .references-link {
+//         height: 10rem;
+//         padding: 2rem 0.75rem;
+//         width: 100%;
+//         border-radius: 0.5rem;
+//         & strong {
+//             color: #eeeeee;
+//             & pre {
+//                 font-size: 1.5rem;
+//                 letter-spacing: 1.5px;
+//                 padding: 0.5rem 0;
+//                 white-space: pre-wrap;
+//             }
+//         }
+//         & .Link-message-container {
+//             width: inherit;
+//         }
+//     }
+// `;
 const Target = styled.div`
     width: 0;
     height: 0;
@@ -1936,7 +1703,7 @@ const Target = styled.div`
 const NavContainer = styled.nav`
     background-color: #0c2e5e;
     display: grid;
-    grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(7, auto);
     grid-template-rows: repeat(1, auto);
     column-gap: 1.5rem;
     row-gap: 1.5rem;
