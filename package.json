@@ -4,7 +4,7 @@
   "description": "playground for learning cypress and acessibility technologies",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js & webpack serve --config ./webpack.config.js --mode development & open http://localhost:8080 & pa11y --runner axe http://localhost:8080",
+    "start": "nodemon server.js & webpack serve --config ./webpack.config.js --mode development & open http://localhost:8080 & pa11y --runner axe http://localhost:8080 & axe http://localhost:8080 --timeout=120 --save axe/webpage-results/results.json",
     "start:linux": "webpack serve --config ./webpack.config.js --mode development & xdg-open http://localhost:8080 & pa11y --runner axe http://localhost:8080",
     "start:noopen": "webpack serve --config ./webpack.config.js --mode development & pa11y --runner axe http://localhost:8080",
     "build": "webpack --config ./webpack.config.js --mode production",

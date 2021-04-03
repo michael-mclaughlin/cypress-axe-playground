@@ -1,11 +1,11 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, ReactNode } from 'react';
 import styled from 'styled-components';
 import LabelContainer from './containers/label/index';
 import Input from './foundations/input/index';
 import Form from './containers/form/index';
 import Fieldset from './containers/fieldset/index';
 import Legend from './foundations/legend/index';
-// import ContentInfo from './foundations/Content-info/index';
+import ContentInfo from './foundations/Content-info/index';
 import Div from './containers/div/index';
 import Section from './containers/section/index';
 import Header from './containers/header/index';
@@ -34,75 +34,86 @@ import ResourcesIcon from '-!svg-react-loader?name=Icon!../../Icons/closed-book.
 import OpenBookWithBulbIcon from '-!svg-react-loader?name=Icon!../../Icons/open-book-with-bulb.svg';
 import ComputerWithCap from '-!svg-react-loader?name=Icon!../../Icons/computer-with-cap.svg';
 import ButtonIconDropdown from './foundations/button-icon-dropdown/index';
+import referenceData from './../../axe/infoLinkData/infoData.json';
 
-//TODO: UPDATE CHROMEDRIVER TO MATCH THE CURRENT CHROM VERSION: FIGURE OUT A BETTER WAY TO NOT HAVE TO MANUALLY UPDATE CHROME DRIVER
-// export const MyData = () => {
-//     const [data, setData] = useState([]);
-//     const [violationData, setViolationData] = useState([]);
-//     async function getData() {
-//         const response = await fetch('http://localhost:3001/data');
-//         const responseData = await response.json();
-//         setData(responseData);
-//         setViolationData(responseData[0].violations);
-//     }
-//     useEffect(() => {
-//         getData();
-//     }, [data]);
-//     return (
-//         <div>
-//             {data.map((item, index) => (
-//                 <ErrorRuleParentContainer key={`${item}-${index}`}>
-//                     {violationData.map((newItem: any, index: number) => {
-//                         return (
-//                             <ContentInfo
-//                                 key={`pa11y-data-content-info-${index}`}
-//                                 id={`pa11y-data-content-info-${index}`}
-//                                 className="Pa11y-data-content-info"
-//                                 messageChildren={newItem.description}
-//                                 headingChildren={newItem.help}
-//                                 errorTypeChildren={`Impact: ${newItem.impact}, Error Type: ${newItem.id}`}
-//                                 contextChildren={newItem.helpUrl}
-//                                 footerChildren={
-//                                     <div>
-//                                         {newItem.nodes.map((node: any, index: number) => {
-//                                             return (
-//                                                 <ErrorRuleContainer key={`${node}-${index}`}>
-//                                                     <ErrorRuleSummaryFailureContainer
-//                                                         key={`${node}-${node.failureSummary}-${index}`}
-//                                                     >
-//                                                         {node.failureSummary}
-//                                                     </ErrorRuleSummaryFailureContainer>
-//                                                     <ErrorRuleCodeContainer>
-//                                                         <ErrorRuleHtmlContainer
-//                                                             key={`${node}-${node.html}-${index}`}
-//                                                         >
-//                                                             {node.html}
-//                                                         </ErrorRuleHtmlContainer>
-//                                                     </ErrorRuleCodeContainer>
-//                                                 </ErrorRuleContainer>
-//                                             );
-//                                         })}
-//                                     </div>
-//                                 }
-//                             >
-//                                 <OpenBookWithBulbIcon />
-//                             </ContentInfo>
-//                         );
-//                     })}
-//                 </ErrorRuleParentContainer>
-//             ))}
-//         </div>
-//     );
-// };
-//TODO: END
+interface NewItem {
+    description: string;
+    help: string;
+    impact: string;
+    id: string;
+    helpUrl: string;
+    nodes: ReactNode[];
+}
 
-export const InfoLinkData = () => {
+interface Node {
+    failureSummary: string;
+    html: string;
+}
+
+export const ErrorData = () => {
     const [data, setData] = useState([]);
+    const [violationData, setViolationData] = useState([]);
     async function getData() {
         const response = await fetch('http://localhost:3001/data');
         const responseData = await response.json();
         setData(responseData);
+        setViolationData(responseData[0].violations);
     }
+    useEffect(() => {
+        getData();
+    }, [data]);
+    return (
+        <div>
+            {data.map((item, index) => (
+                <ErrorRuleParentContainer key={`${item}-${index}`}>
+                    {violationData.map((newItem: NewItem, index: number) => {
+                        return (
+                            <ContentInfo
+                                key={`pa11y-data-content-info-${index}`}
+                                id={`pa11y-data-content-info-${index}`}
+                                className="Pa11y-data-content-info"
+                                messageChildren={newItem.description}
+                                headingChildren={newItem.help}
+                                errorTypeChildren={`Impact: ${newItem.impact}, Error Type: ${newItem.id}`}
+                                contextChildren={newItem.helpUrl}
+                                footerChildren={
+                                    <div>
+                                        {newItem.nodes.map((node: Node, index: number) => {
+                                            return (
+                                                <ErrorRuleContainer key={`${node}-${index}`}>
+                                                    <ErrorRuleSummaryFailureContainer
+                                                        key={`${node}-${node.failureSummary}-${index}`}
+                                                    >
+                                                        {node.failureSummary}
+                                                    </ErrorRuleSummaryFailureContainer>
+                                                    <ErrorRuleCodeContainer>
+                                                        <ErrorRuleHtmlContainer
+                                                            key={`${node}-${node.html}-${index}`}
+                                                        >
+                                                            {node.html}
+                                                        </ErrorRuleHtmlContainer>
+                                                    </ErrorRuleCodeContainer>
+                                                </ErrorRuleContainer>
+                                            );
+                                        })}
+                                    </div>
+                                }
+                            >
+                                <OpenBookWithBulbIcon />
+                            </ContentInfo>
+                        );
+                    })}
+                </ErrorRuleParentContainer>
+            ))}
+        </div>
+    );
+};
+
+export const InfoLinkData = () => {
+    const [data, setData] = useState([]);
+    const getData = () => {
+        return setData(referenceData);
+    };
     useEffect(() => {
         getData();
     }, [data]);
@@ -135,7 +146,7 @@ const App = () => {
     const introRef = useRef(null);
     const referencesRef = useRef(null);
     const finalChallengeRef = useRef(null);
-    // const pa11yReportsRef = useRef(null);
+    const pa11yReportsRef = useRef(null);
     const handleScroll = () => {
         formRef.current.scrollIntoView({ behavior: 'smooth' });
     };
@@ -160,9 +171,9 @@ const App = () => {
     const handleScrollFinalChallenge = () => {
         finalChallengeRef.current.scrollIntoView({ behavior: 'smooth' });
     };
-    // const handleScrollPa11yReports = () => {
-    //     pa11yReportsRef.current.scrollIntoView({ behavior: 'smooth' });
-    // };
+    const handleScrollPa11yReports = () => {
+        pa11yReportsRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
 
     return (
         <AppContainer>
@@ -252,7 +263,7 @@ const App = () => {
                     >
                         <ComputerWithCap />
                     </TextLink>
-                    {/* <TextLink
+                    <TextLink
                         id="link-8"
                         title="link to references"
                         className="references-reference-link"
@@ -260,7 +271,7 @@ const App = () => {
                         onClick={handleScrollPa11yReports}
                     >
                         <ComputerWithCap />
-                    </TextLink> */}
+                    </TextLink>
                 </NavContainer>
             </Header>
             <HomeTargetContainer>
@@ -1422,7 +1433,7 @@ const App = () => {
                     </Div>
                 </Div>
             </Section>
-            {/* <Pa11yReportTargetContainer>
+            <Pa11yReportTargetContainer>
                 <Target id="error-section-target" ref={pa11yReportsRef} />
                 <InfoLink
                     id="link-55"
@@ -1440,46 +1451,59 @@ const App = () => {
                 >
                     <ResourcesIcon />
                 </InfoLink>
-            </Pa11yReportTargetContainer> */}
-            {/* <Section
+            </Pa11yReportTargetContainer>
+            <Section
                 id="pa11y-reports-section"
                 className="Introduction-section"
                 dataCy="pa11y-reports-section"
             >
-                <H2
-                    id="introduction-heading"
-                    className="section-heading Introduction-heading  heading-2"
-                    dataCy="introduction-heading"
+                <Div
+                    id="error-report-heading-container"
+                    className="Error-report-heading-container"
+                    dataCy="error-report-heading-container"
                 >
-                    <Div id="logo-container" className="Logo-container" dataCy="logo-container">
-                        <LearnIcon />
-                    </Div>
-                    Error Report Data
-                </H2>
+                    <TextLink
+                        id="link-7"
+                        title="link to references"
+                        className="references-reference-link"
+                        linkText="Click to refresh error reports"
+                        onClick={() => window.location.reload()}
+                    >
+                        <ComputerWithCap />
+                    </TextLink>
+                    <H2
+                        id="introduction-heading"
+                        className="section-heading Introduction-heading  heading-2"
+                        dataCy="introduction-heading"
+                    >
+                        Error Report Data
+                    </H2>
+                </Div>
                 <ReportsContainer>
-                    <MyData />
+                    <ErrorData />
                 </ReportsContainer>
-            </Section> */}
+            </Section>
         </AppContainer>
     );
 };
-// const ErrorRuleParentContainer = styled.div`
-//     color: #ffffff;
-// `;
-// const ErrorRuleContainer = styled.div`
-//     padding: 1rem 1.5rem;
-//     background-color: #051930;
-//     margin: 1rem 0;
-//     border-radius: 0.25rem;
-// `;
-// const ErrorRuleHtmlContainer = styled.pre`
-//     color: #2ddfff;
-//     background-color: #030619;
-//     padding: 1rem 1.5rem;
-//     white-space: pre-wrap;
-// `;
-// const ErrorRuleCodeContainer = styled.code``;
-// const ErrorRuleSummaryFailureContainer = styled.code``;
+const ErrorRuleParentContainer = styled.div`
+    color: #ffffff;
+`;
+const ErrorRuleContainer = styled.div`
+    padding: 1rem 1.5rem;
+    background-color: #051930;
+    margin: 1rem 0;
+    border-radius: 0.25rem;
+`;
+const ErrorRuleHtmlContainer = styled.pre`
+    color: #2ddfff;
+    background-color: #030619;
+    padding: 1rem 1.5rem;
+    white-space: pre-wrap;
+    overflow: auto;
+`;
+const ErrorRuleCodeContainer = styled.code``;
+const ErrorRuleSummaryFailureContainer = styled.code``;
 const HomeTargetContainer = styled.div`
     height: 14rem;
 `;
@@ -1663,35 +1687,35 @@ const FinalChallengeTargetContainer = styled.div`
         }
     }
 `;
-// const Pa11yReportTargetContainer = styled.div`
-//     height: 15rem;
-//     padding: 0 6rem;
-//     display: flex;
-//     flex-flow: row nowrap;
-//     align-items: center;
-//     justify-content: center;
-//     @media (max-width: 1475px) {
-//         height: 24rem;
-//     }
-//     & .references-link {
-//         height: 10rem;
-//         padding: 2rem 0.75rem;
-//         width: 100%;
-//         border-radius: 0.5rem;
-//         & strong {
-//             color: #eeeeee;
-//             & pre {
-//                 font-size: 1.5rem;
-//                 letter-spacing: 1.5px;
-//                 padding: 0.5rem 0;
-//                 white-space: pre-wrap;
-//             }
-//         }
-//         & .Link-message-container {
-//             width: inherit;
-//         }
-//     }
-// `;
+const Pa11yReportTargetContainer = styled.div`
+    height: 15rem;
+    padding: 0 6rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 1475px) {
+        height: 24rem;
+    }
+    & .references-link {
+        height: 10rem;
+        padding: 2rem 0.75rem;
+        width: 100%;
+        border-radius: 0.5rem;
+        & strong {
+            color: #eeeeee;
+            & pre {
+                font-size: 1.5rem;
+                letter-spacing: 1.5px;
+                padding: 0.5rem 0;
+                white-space: pre-wrap;
+            }
+        }
+        & .Link-message-container {
+            width: inherit;
+        }
+    }
+`;
 const Target = styled.div`
     width: 0;
     height: 0;
@@ -1703,7 +1727,7 @@ const Target = styled.div`
 const NavContainer = styled.nav`
     background-color: #0c2e5e;
     display: grid;
-    grid-template-columns: repeat(7, auto);
+    grid-template-columns: repeat(8, auto);
     grid-template-rows: repeat(1, auto);
     column-gap: 1.5rem;
     row-gap: 1.5rem;
@@ -1900,6 +1924,14 @@ const AppContainer = styled.section`
         }
     }
     & .Introduction-section {
+        & .Error-report-heading-container {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            & > h2 {
+                margin: 0 1.5rem;
+            }
+        }
         & .section-heading {
             font-size: 1.75rem;
             color: #ffffff;
