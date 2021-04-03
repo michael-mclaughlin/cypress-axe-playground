@@ -9,8 +9,9 @@ const TextLink: React.FC<{
     children?: React.ReactNode;
     onClick?: () => void;
     onChange?: () => void;
+    onBlur?: () => void;
     linkText: string;
-}> = ({ id, className, children, href, onChange, onClick, title, linkText }) => {
+}> = ({ id, className, children, href, onChange, onClick, title, linkText, onBlur }) => {
     return (
         <LinkContainer
             id={id}
@@ -24,6 +25,7 @@ const TextLink: React.FC<{
                 href={href}
                 onClick={onClick}
                 onChange={onChange}
+                onBlur={onBlur}
                 title={title}
             >
                 {children}

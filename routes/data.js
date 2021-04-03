@@ -3,7 +3,8 @@
 /* eslint-disable no-undef */
 const userRoutes = (app, fs) => {
     //TODO: FIGURE OUT A WAY TO UPDATE CHROME DRIVER TO USE THIS PATH: const dataPath = './axe/webpage-results/results.json';
-    const dataPath = './axe/infoLinkData/infoData.json';
+    // const dataPath = './axe/infoLinkData/infoData.json';
+    const dataPath = './axe/webpage-results/results.json';
 
     // READ
     app.get('/data', (req, res) => {
