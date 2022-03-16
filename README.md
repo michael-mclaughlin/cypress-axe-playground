@@ -223,5 +223,5 @@ npm run pa11y:reporter
 
 ```
 Mike Mclaughlin
-email: mjmjr@fatsmail.com
+email: mjmjr@fastmail.com
 ```
