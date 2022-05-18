@@ -87,7 +87,7 @@ npm install
 To start your the application, run the pa11y tests automatically within the console/terminal window AND see the application within the browser run:
 
 ```
-npm run start
+npm run cy:axe
 ```
 
 After starting the application, you should see logs that look similar to this:
