@@ -4,7 +4,6 @@ package-lock.json
 build/
 *.iml
 .idea/
-axe
 # General
 .DS_Store
 .AppleDouble

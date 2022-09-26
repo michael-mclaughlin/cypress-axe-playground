@@ -1,0 +1,218 @@
+[
+  {
+    "id": "link-27",
+    "href": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+    "messageChildren": "Go to w3.org to learn more about doing a preliminary checklist for accessibility.",
+    "title": "Click this link to go to w3.org to learn more about doing a preliminary checklist for accessibility.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-28",
+    "href": "https://www.w3.org/WAI/tutorials/forms/",
+    "messageChildren": "Go to w3.org to learn more about forms and how you can make them accessible.",
+    "title": "Click this link to go to w3.org to learn more about forms and how you can make them accessible.",
+    "className": "references-reference-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-29",
+    "href": "https://webaim.org/techniques/semanticstructure/#nature",
+    "messageChildren": "Go to WebAIM to learn more about how to use correct DOM structure to make your web presence accessible.",
+    "title": "Click this link to go to WebAIM to learn more about how to use correct DOM structure to make your web presence accessible.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-30",
+    "href": "https://webaim.org/articles/contrast/",
+    "messageChildren": "Go to WebAIM to learn more about how proper color contrast ratio to make your web presence accessible.",
+    "title": "Click this link to go to WebAIM to learn more about how proper color contrast ratio to make your web presence accessible.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-31",
+    "href": "https://webaim.org/techniques/fonts/",
+    "messageChildren": "Go to WebAIM to learn more about how Typefaces and Fonts can be used to make your web presence accessible.",
+    "title": "Click this link to go to WebAIM to learn more about how Typefaces and Fonts can be used to make your web presence accessible.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-32",
+    "href": "https://webaim.org/techniques/textlayout/",
+    "messageChildren": "Go to WebAIM to learn more about how Text Layout can be used to make your web presence accessible.",
+    "title": "Click this link to go to WebAIM to learn more about how Text Layout can be used to make your web presence accessible.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-33",
+    "href": "https://webaim.org/resources/contrastchecker/",
+    "messageChildren": "Go to WebAIM to learn more about how to use color contrast checkers to make your web presence accessible.",
+    "title": "Click this link to go to WebAIM to learn more about how to use color contrast checkers to make your web presence accessible.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-34",
+    "href": "https://webaim.org/projects/screenreadersurvey8/",
+    "messageChildren": "Go to WebAIM to learn more about one of their screen reader surveys.",
+    "title": "Click this link to go to WebAIM to learn more about one of their screen reader surveys.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-40",
+    "href": "https://openbase.io/js/cypress-axe/documentation",
+    "messageChildren": "Go to openbase and read about cypress-axe and axe-core install and implementation docs.",
+    "title": "Click this link to go to openbase and read about cypress-axe and axe-core install and implementation docs.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-41",
+    "href": "https://blog.sapegin.me/til/testing/detecting-accessibility-issues-on-ci-with-cypress-axe/",
+    "messageChildren": "Go to Artem Sapegin's blog and read about cypress-axe/ axe-core and how to detect and run the tests within the GUI.",
+    "title": "Click this link to go to Artem Sapegin's blog and read about cypress-axe/ axe-core and how to detect and run the tests within the GUI.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-42",
+    "href": "https://vanslaars.io/blog/introducing-cypress-axe/",
+    "messageChildren": "Go to Andy Van Slaars's blog and read an introduction to cypress-axe.",
+    "title": "Click this link to go to Andy Van Slaars's blog and read an introduction to cypress-axe.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-43",
+    "href": "https://inclusive-components.design/",
+    "messageChildren": "Go to the Inclusive Components blog and read more about accessibility and components.",
+    "title": "Click this link to go to the Inclusive Components blog and read more about accessibility and components.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-44",
+    "href": "https://www.sitepoint.com/automated-accessibility-checking-with-axe/",
+    "messageChildren": "Go to Sitepoint blog and read more about automated accessibility checking with axe.",
+    "title": "Click this link to go to Sitepoint blog and read more about automated accessibility checking with axe.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-45",
+    "href": "https://timdeschryver.dev/blog/setting-up-cypress-with-axe-for-accessibility",
+    "messageChildren": "Go to Tim Deschryver's blog and read more about setting up Cypress with AXE for accessibility.",
+    "title": "Click this link to go to Tim Deschryver's blog and read more about setting up Cypress with AXE for accessibility.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-46",
+    "href": "https://developer.aliyun.com/mirror/npm/package/eslint-plugin-jsx-a11y",
+    "messageChildren": "Go learn about eslint-plugin-jsx-a11y static AST checker for accessibility rules on JSX elements.",
+    "title": "Click this link to go learn about eslint-plugin-jsx-a11y static AST checker for accessibility rules on JSX elements.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-47",
+    "href": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y",
+    "messageChildren": "Go to the GitHub repo about eslint-plugin-jsx-a11y rules and how to use them within an application.",
+    "title": "Click this link to go to the GitHub repo about eslint-plugin-jsx-a11y rules and how to use them within an application.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-48",
+    "href": "https://reactjs.org/docs/accessibility.html",
+    "messageChildren": "Go to the ReactJs website to learn about how they accomodate for accessibility.",
+    "title": "Click this link to go to the ReactJs website to learn about how they accomodate for accessibility.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-49",
+    "href": "https://github.com/dequelabs/axe-core",
+    "messageChildren": "Go to the deque labs GitHub repo to learn about axe-core.",
+    "title": "Click this link to go to the deque labs GitHub repo to learn about axe-core.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-50",
+    "href": "https://www.deque.com/axe/core-documentation/api-documentation/#parameters-axerun",
+    "messageChildren": "Go to the deque labs API documentation to learn more about AXE technologies and how to configure them.",
+    "title": "Click this link to go to the deque labs API documentation to learn more about AXE technologies and how to configure them.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-51",
+    "href": "https://www.deque.com/blog/how-to-test-for-accessibility-with-cypress/",
+    "messageChildren": "Go to the deque labs blog to learn more about how to test for accessibility with Cypress while intergating axe-core into your project. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work.",
+    "title": "Click this link to go to the deque labs blog to learn more about how to test for accessibility with Cypress while intergating axe-core into your project. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-52",
+    "href": "https://www.deque.com/blog/introducing-axe-linter/",
+    "messageChildren": "Go to the deque labs blog to learn more about their new Automated Source Code Accessibility Checker. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work.",
+    "title": "Click this link to go to the deque labs blog to learn more about their new Automated Source Code Accessibility Checker. Chrome is buggy with this site currently and they are working on it...try another browser if Chrome doesn't work.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-53",
+    "href": "https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell",
+    "messageChildren": "Go to Cypress.io to learn everything you need to know about Cypress.  The docs are exstensive and always updated with current info.",
+    "title": "Click this link to go to Cypress.io to learn everything you need to know about Cypress.  The docs are exstensive and always updated with current info.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-54",
+    "href": "https://plewis.pages.corp.indeed.com/a11y-checklists/",
+    "messageChildren": "Go to Indeed's accesibility checklist to make your web presence accessible.",
+    "title": "Click this link to go to Indeed's accesibility checklist to make your web presence accessible.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-55",
+    "href": "https://docs.google.com/presentation/d/116f0Up83qDONgrN_62sSxXRNnoE3A-BWCLsR2F2-Aag/edit#slide=id.g80d03e662f_0_175",
+    "messageChildren": "Go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility.",
+    "title": "Click this link to go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-56",
+    "href": "https://wiki.indeed.com/pages/viewpage.action?spaceKey=a11y&title=Accessibility+FAQ",
+    "messageChildren": "Go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence.",
+    "title": "Click this link to go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-57",
+    "href": "https://wiki.indeed.com/display/a11y/Accessibility+testing+with+axe-core",
+    "messageChildren": "Go to Indeed's Accessibility testing with axe-core wiki page in confluence.",
+    "title": "Click this link to go to Indeed's Accessibility testing with axe-core wiki page in confluence.",
+    "className": "references-link",
+    "target": "_blank"
+  },
+  {
+    "id": "link-58",
+    "href": "https://wiki.indeed.com/display/a11y/DEG+Accessibility",
+    "messageChildren": "Go to Indeed's Delivery Engineering Accessibility Hub wiki page in confluence.",
+    "title": "Click this link to go to Cypress.io to learn everything you need to know about Cypress.  The docs are exstensive and always updated with current info.",
+    "className": "references-link",
+    "target": "_blank"
+  }
+]
