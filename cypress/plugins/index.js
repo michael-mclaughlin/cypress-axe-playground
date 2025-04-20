@@ -20,20 +20,20 @@
 // `on` is used to hook into various events Cypress emits
 // `config` is the resolved Cypress config
 // }
-module.exports = (on, config) => {
-    require('cypress-plugin-retries/lib/plugin')(on);
-    on('before:browser:launch', (browser = {}, launchOptions) => {
-        if (browser.family === 'electron') {
+// module.exports = (on, config) => {
+    // require('cypress-plugin-retries/lib/plugin')(on);
+    // on('before:browser:launch', (browser = {}, launchOptions) => {
+        // if (browser.family === 'electron') {
             // would match Electron in 3.x
             // will match no browsers in 4.0.0
-            return launchOptions;
-        }
+            // return launchOptions;
+        // }
 
-        if (browser.family === 'chromium') {
+        // if (browser.family === 'chromium') {
             // would match no browsers in 3.x
             // will match any Chromium-based browser in 4.0.0
             // ie Chrome, Canary, Chromium, Electron, Edge (Chromium-based)
-            return launchOptions;
-        }
-    });
-};
+            // return launchOptions;
+        // }
+    // });
+// };

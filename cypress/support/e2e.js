@@ -14,7 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-require('cypress-plugin-retries');
+// require('cypress-plugin-retries');
 import './commands';
 import 'cypress-axe';
 // require('cypress-axe');

@@ -20,7 +20,7 @@ module.exports = {
             {
                 test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
-                loader: 'awesome-typescript-loader',
+                use: 'ts-loader',
             },
             {
                 enforce: 'pre',
