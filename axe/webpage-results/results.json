@@ -1051,7 +1051,7 @@
             ],
             "any": [],
             "failureSummary": "Fix all of the following:\n  The iframe still has to be tested with axe-core",
-            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"711d7993cda6d9b601985e617a976d37\"></iframe>",
+            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"39cad252893375585be189bab819e2d4\"></iframe>",
             "impact": "critical",
             "none": [],
             "target": [
@@ -2049,11 +2049,11 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<a id=\"text-link-link-12\" class=\"sc-tagGq dzlhJJ Text-link form-reference-link\" data-cy=\"text-link-link-12\" title=\"link to accessible forms references\">",
+            "html": "<a id=\"text-link-link-1\" class=\"sc-tagGq dzlhJJ Text-link form-reference-link\" data-cy=\"text-link-link-1\" title=\"link to accessible forms references\">",
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12"
+              "#text-link-link-1"
             ]
           },
           {
@@ -7265,141 +7265,6 @@
             "none": [],
             "target": [
               "#link-link-53-21 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "bgColor": "#051930",
-                  "contrastRatio": 17.67,
-                  "expectedContrastRatio": "4.5:1",
-                  "fgColor": "#ffffff",
-                  "fontSize": "12.0pt (16px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "shadowColor": null
-                },
-                "id": "color-contrast",
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 17.67",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's accesibility checklist to make your web presence accessible.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "bgColor": "#051930",
-                  "contrastRatio": 17.67,
-                  "expectedContrastRatio": "4.5:1",
-                  "fgColor": "#ffffff",
-                  "fontSize": "12.0pt (16px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "shadowColor": null
-                },
-                "id": "color-contrast",
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 17.67",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "bgColor": "#051930",
-                  "contrastRatio": 17.67,
-                  "expectedContrastRatio": "4.5:1",
-                  "fgColor": "#ffffff",
-                  "fontSize": "12.0pt (16px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "shadowColor": null
-                },
-                "id": "color-contrast",
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 17.67",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "bgColor": "#051930",
-                  "contrastRatio": 17.67,
-                  "expectedContrastRatio": "4.5:1",
-                  "fgColor": "#ffffff",
-                  "fontSize": "12.0pt (16px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "shadowColor": null
-                },
-                "id": "color-contrast",
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 17.67",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's Accessibility testing with axe-core wiki page in confluence.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "bgColor": "#051930",
-                  "contrastRatio": 17.67,
-                  "expectedContrastRatio": "4.5:1",
-                  "fgColor": "#ffffff",
-                  "fontSize": "12.0pt (16px)",
-                  "fontWeight": "normal",
-                  "messageKey": null,
-                  "shadowColor": null
-                },
-                "id": "color-contrast",
-                "impact": "serious",
-                "message": "Element has sufficient color contrast of 17.67",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's Delivery Engineering Accessibility Hub wiki page in confluence.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-JrDLc.kBVgKa.Link-message-container"
             ]
           },
           {
@@ -13786,7 +13651,7 @@
           {
             "all": [],
             "any": [],
-            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"711d7993cda6d9b601985e617a976d37\"></iframe>",
+            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"39cad252893375585be189bab819e2d4\"></iframe>",
             "impact": null,
             "none": [
               {
@@ -13848,7 +13713,7 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"711d7993cda6d9b601985e617a976d37\"></iframe>",
+            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"39cad252893375585be189bab819e2d4\"></iframe>",
             "impact": null,
             "none": [],
             "target": [
@@ -15273,44 +15138,7 @@
                 "id": "page-has-main",
                 "impact": "moderate",
                 "message": "Document has at least one main landmark",
-                "relatedNodes": [
-                  {
-                    "html": "<main class=\"sc-kAyceB iUnjeE article-message-container\">",
-                    "target": [
-                      "#pa11y-data-content-info-0 > main"
-                    ]
-                  },
-                  {
-                    "html": "<main class=\"sc-kAyceB iUnjeE article-message-container\">",
-                    "target": [
-                      "#pa11y-data-content-info-1 > main"
-                    ]
-                  },
-                  {
-                    "html": "<main class=\"sc-kAyceB iUnjeE article-message-container\"><h4 class=\"sc-jlZhew dQMojY\">Ensure every form element has a label</h4><code class=\"sc-kpDqfm hTePpt\"><pre class=\"sc-dAlyuH bBRJXh\">https://dequeuniversity.com/rules/axe/4.10/label?application=webdriverjs</pre></code></main>",
-                    "target": [
-                      "#pa11y-data-content-info-2 > main"
-                    ]
-                  },
-                  {
-                    "html": "<main class=\"sc-kAyceB iUnjeE article-message-container\">",
-                    "target": [
-                      "#pa11y-data-content-info-3 > main"
-                    ]
-                  },
-                  {
-                    "html": "<main class=\"sc-kAyceB iUnjeE article-message-container\"><h4 class=\"sc-jlZhew dQMojY\">Ensure landmarks are unique</h4><code class=\"sc-kpDqfm hTePpt\"><pre class=\"sc-dAlyuH bBRJXh\">https://dequeuniversity.com/rules/axe/4.10/landmark-unique?application=webdriverjs</pre></code></main>",
-                    "target": [
-                      "#pa11y-data-content-info-4 > main"
-                    ]
-                  },
-                  {
-                    "html": "<main class=\"sc-kAyceB iUnjeE article-message-container\"><h4 class=\"sc-jlZhew dQMojY\">Ensure all page content is contained by landmarks</h4><code class=\"sc-kpDqfm hTePpt\"><pre class=\"sc-dAlyuH bBRJXh\">https://dequeuniversity.com/rules/axe/4.10/region?application=webdriverjs</pre></code></main>",
-                    "target": [
-                      "#pa11y-data-content-info-5 > main"
-                    ]
-                  }
-                ]
+                "relatedNodes": []
               }
             ],
             "any": [],
@@ -15348,7 +15176,7 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<nav class=\"sc-fvtFIe RTkbO nav-links-container\">",
+            "html": "<nav class=\"sc-fvtFIe gMSCtK nav-links-container\">",
             "impact": null,
             "none": [],
             "target": [
@@ -16673,171 +16501,6 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<a id=\"link-link-54-22\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-54-22\" href=\"https://plewis.pages.corp.indeed.com/a11y-checklists/\" target=\"_blank\" title=\"Click this link to go to Indeed's accesibility checklist to make your web presence accessible.\">",
-            "impact": null,
-            "none": [
-              {
-                "data": null,
-                "id": "focusable-no-name",
-                "impact": "serious",
-                "message": "Element is not in tab order or has accessible text",
-                "relatedNodes": []
-              }
-            ],
-            "target": [
-              "#link-link-54-22"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": null,
-                "id": "has-visible-text",
-                "impact": "serious",
-                "message": "Element has text that is visible to screen readers",
-                "relatedNodes": []
-              },
-              {
-                "data": null,
-                "id": "non-empty-title",
-                "impact": "serious",
-                "message": "Element has a title attribute",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-55-23\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-55-23\" href=\"https://docs.google.com/presentation/d/116f0Up83qDONgrN_62sSxXRNnoE3A-BWCLsR2F2-Aag/edit#slide=id.g80d03e662f_0_175\" target=\"_blank\" title=\"Click this link to go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility.\">",
-            "impact": null,
-            "none": [
-              {
-                "data": null,
-                "id": "focusable-no-name",
-                "impact": "serious",
-                "message": "Element is not in tab order or has accessible text",
-                "relatedNodes": []
-              }
-            ],
-            "target": [
-              "#link-link-55-23"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": null,
-                "id": "has-visible-text",
-                "impact": "serious",
-                "message": "Element has text that is visible to screen readers",
-                "relatedNodes": []
-              },
-              {
-                "data": null,
-                "id": "non-empty-title",
-                "impact": "serious",
-                "message": "Element has a title attribute",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-56-24\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-56-24\" href=\"https://wiki.indeed.com/pages/viewpage.action?spaceKey=a11y&amp;title=Accessibility+FAQ\" target=\"_blank\" title=\"Click this link to go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence.\">",
-            "impact": null,
-            "none": [
-              {
-                "data": null,
-                "id": "focusable-no-name",
-                "impact": "serious",
-                "message": "Element is not in tab order or has accessible text",
-                "relatedNodes": []
-              }
-            ],
-            "target": [
-              "#link-link-56-24"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": null,
-                "id": "has-visible-text",
-                "impact": "serious",
-                "message": "Element has text that is visible to screen readers",
-                "relatedNodes": []
-              },
-              {
-                "data": null,
-                "id": "non-empty-title",
-                "impact": "serious",
-                "message": "Element has a title attribute",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-57-25\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-57-25\" href=\"https://wiki.indeed.com/display/a11y/Accessibility+testing+with+axe-core\" target=\"_blank\" title=\"Click this link to go to Indeed's Accessibility testing with axe-core wiki page in confluence.\">",
-            "impact": null,
-            "none": [
-              {
-                "data": null,
-                "id": "focusable-no-name",
-                "impact": "serious",
-                "message": "Element is not in tab order or has accessible text",
-                "relatedNodes": []
-              }
-            ],
-            "target": [
-              "#link-link-57-25"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": null,
-                "id": "has-visible-text",
-                "impact": "serious",
-                "message": "Element has text that is visible to screen readers",
-                "relatedNodes": []
-              },
-              {
-                "data": null,
-                "id": "non-empty-title",
-                "impact": "serious",
-                "message": "Element has a title attribute",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-58-26\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-58-26\" href=\"https://wiki.indeed.com/display/a11y/DEG+Accessibility\" target=\"_blank\" title=\"Click this link to go to Cypress.io to learn everything you need to know about Cypress.  The docs are exstensive and always updated with current info.\">",
-            "impact": null,
-            "none": [
-              {
-                "data": null,
-                "id": "focusable-no-name",
-                "impact": "serious",
-                "message": "Element is not in tab order or has accessible text",
-                "relatedNodes": []
-              }
-            ],
-            "target": [
-              "#link-link-58-26"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": null,
-                "id": "has-visible-text",
-                "impact": "serious",
-                "message": "Element has text that is visible to screen readers",
-                "relatedNodes": []
-              },
-              {
-                "data": null,
-                "id": "non-empty-title",
-                "impact": "serious",
-                "message": "Element has a title attribute",
-                "relatedNodes": []
-              }
-            ],
             "html": "<a id=\"link-link-54\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-54\" href=\"javascript:void(0)\" title=\"There is a Final Challenge below for you to test the skills that you have learned so far. Challenge yourself and test your new skills.  Click the Final Challenge link within the header to be taken to the Final Challenge section OR scroll down to the Final Challenge section.\">",
             "impact": null,
             "none": [
@@ -17374,68 +17037,7 @@
                 "id": "page-has-heading-one",
                 "impact": "moderate",
                 "message": "Page has at least one level-one heading",
-                "relatedNodes": [
-                  {
-                    "html": "<h1 id=\"app-heading-1\" class=\"sc-dtBdUo App-heading-1\" data-cy=\"app-heading-1\">AXE Testing Playground</h1>",
-                    "target": [
-                      "#app-heading-1"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"form-section-heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"form-section-heading-1\">Accessibility with Forms Exercise</h1>",
-                    "target": [
-                      "#form-section-heading-1"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1\">Accessibility with Heading Order Exercise</h1>",
-                    "target": [
-                      "#header-heading-order-section > .Heading-1[data-cy=\"heading-1\"]"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1\">Heading Order H1</h1>",
-                    "target": [
-                      "#headings-container-div > .Heading-1[data-cy=\"heading-1\"]"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1\">Accessibility with Contrast Ratio</h1>",
-                    "target": [
-                      "#header-color-contrast-section > .Heading-1[data-cy=\"heading-1\"]"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1-color-contrast\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1-color-contrast\">Change the font color &nbsp;:-)</h1>",
-                    "target": [
-                      "#heading-1-color-contrast"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1\">Accessibility with Contrast Ratio and Font Size Exercise</h1>",
-                    "target": [
-                      "#header-color-contrast-font-size-section > .Heading-1[data-cy=\"heading-1\"]"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1\">44px</h1>",
-                    "target": [
-                      ".sc-bmzYkS.color-picker-aurora-text-child-container > .Heading-1[data-cy=\"heading-1\"]"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1\">Extra References</h1>",
-                    "target": [
-                      "#header-references-section > .Heading-1[data-cy=\"heading-1\"]"
-                    ]
-                  },
-                  {
-                    "html": "<h1 id=\"heading-1\" class=\"sc-dtBdUo Heading-1\" data-cy=\"heading-1\">Final Challenge</h1>",
-                    "target": [
-                      "#header-final-challenge-section > .Heading-1[data-cy=\"heading-1\"]"
-                    ]
-                  }
-                ]
+                "relatedNodes": []
               }
             ],
             "any": [],
@@ -17852,7 +17454,7 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<nav class=\"sc-fvtFIe RTkbO nav-links-container\">",
+            "html": "<nav class=\"sc-fvtFIe gMSCtK nav-links-container\">",
             "impact": null,
             "none": [],
             "target": [
@@ -17872,11 +17474,11 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<div id=\"link-12\" class=\"sc-kdBSHD GIWni Link-parent-container Text-link-parent-container form-reference-link\">",
+            "html": "<div id=\"link-1\" class=\"sc-kdBSHD GIWni Link-parent-container Text-link-parent-container form-reference-link\">",
             "impact": null,
             "none": [],
             "target": [
-              "#link-12"
+              "#link-1"
             ]
           },
           {
@@ -17892,11 +17494,11 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<a id=\"text-link-link-12\" class=\"sc-tagGq dzlhJJ Text-link form-reference-link\" data-cy=\"text-link-link-12\" title=\"link to accessible forms references\">",
+            "html": "<a id=\"text-link-link-1\" class=\"sc-tagGq dzlhJJ Text-link form-reference-link\" data-cy=\"text-link-link-1\" title=\"link to accessible forms references\">",
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12"
+              "#text-link-link-1"
             ]
           },
           {
@@ -17916,7 +17518,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"]"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"]"
             ]
           },
           {
@@ -17936,7 +17538,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g"
             ]
           },
           {
@@ -17956,7 +17558,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(1)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(1)"
             ]
           },
           {
@@ -17976,7 +17578,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(2)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(2)"
             ]
           },
           {
@@ -17996,7 +17598,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(3)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(3)"
             ]
           },
           {
@@ -18016,7 +17618,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(4)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(4)"
             ]
           },
           {
@@ -18036,7 +17638,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(5)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(5)"
             ]
           },
           {
@@ -18056,7 +17658,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(6)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(6)"
             ]
           },
           {
@@ -18076,7 +17678,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(7)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(7)"
             ]
           },
           {
@@ -18096,7 +17698,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(8)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(8)"
             ]
           },
           {
@@ -18116,7 +17718,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(9)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(9)"
             ]
           },
           {
@@ -18136,7 +17738,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(10)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(10)"
             ]
           },
           {
@@ -18156,7 +17758,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(11)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(11)"
             ]
           },
           {
@@ -18176,7 +17778,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(12)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(12)"
             ]
           },
           {
@@ -18196,7 +17798,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(13)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(13)"
             ]
           },
           {
@@ -18216,7 +17818,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(14)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(14)"
             ]
           },
           {
@@ -18236,7 +17838,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(15)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(15)"
             ]
           },
           {
@@ -18256,7 +17858,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(16)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(16)"
             ]
           },
           {
@@ -18276,7 +17878,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(17)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(17)"
             ]
           },
           {
@@ -18296,7 +17898,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(18)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(18)"
             ]
           },
           {
@@ -18316,7 +17918,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(19)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(19)"
             ]
           },
           {
@@ -18336,7 +17938,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(20)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(20)"
             ]
           },
           {
@@ -18356,7 +17958,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(21)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(21)"
             ]
           },
           {
@@ -18376,7 +17978,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(22)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(22)"
             ]
           },
           {
@@ -18396,7 +17998,7 @@
             "impact": null,
             "none": [],
             "target": [
-              "#text-link-link-12 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(23)"
+              "#text-link-link-1 > svg[viewBox=\"0 0 74 74\"][width=\"50\"][height=\"50\"] > g > path[fill=\"#ff5a1f\"]:nth-child(23)"
             ]
           },
           {
@@ -20992,7 +20594,7 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"711d7993cda6d9b601985e617a976d37\"></iframe>",
+            "html": "<iframe src=\"https://player.vimeo.com/video/478353221\" title=\"accessibility video by Rebecka W. Fagerberg\" width=\"500\" height=\"351\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"\" cd_frame_id_=\"39cad252893375585be189bab819e2d4\"></iframe>",
             "impact": null,
             "none": [],
             "target": [
@@ -38872,1006 +38474,6 @@
                 "relatedNodes": []
               }
             ],
-            "html": "<div id=\"link-54-22\" class=\"sc-esYiGF jVBkPl Link-parent-container references-link\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-54-22"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-54-22\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-54-22\" href=\"https://plewis.pages.corp.indeed.com/a11y-checklists/\" target=\"_blank\" title=\"Click this link to go to Indeed's accesibility checklist to make your web presence accessible.\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div class=\"sc-fXSgeo hzryvK\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-fXSgeo.hzryvK"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<svg xmlnsSvgjs=\"http://svgjs.com/svgjs\" version=\"1.1\" width=\"50\" height=\"50\" x=\"0\" y=\"0\" viewBox=\"0 0 507.682 507.682\" xml:space=\"preserve\" class=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"]"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 294.695c-1.919 0-3.839-.732-5.304-2.197l-94.164-94.164c-2.929-2.929-2.929-7.678 0-10.606l94.164-94.164c1.407-1.406 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l94.164 94.164c2.929 2.929 2.929 7.678 0 10.606l-94.164 94.164c-1.465 1.465-3.385 2.197-5.304 2.197zm-83.558-101.664 83.558 83.558 83.558-83.558-83.558-83.558z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(1)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 235.344c-1.989 0-3.896-.79-5.304-2.197l-34.813-34.813c-2.929-2.929-2.929-7.678 0-10.606l34.813-34.813c1.407-1.407 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l34.814 34.813c1.406 1.406 2.196 3.314 2.196 5.303s-.79 3.897-2.196 5.303l-34.814 34.813c-1.408 1.407-3.315 2.197-5.304 2.197zm-24.206-42.313 24.206 24.207 24.207-24.207-24.207-24.206z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(2)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m412.57 0h-70.203-71.627c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h64.127v15.417c0 6.553 5.331 11.883 11.884 11.883h18.446c14.369 0 26.06 11.69 26.06 26.06v15.097c0 6.552 5.331 11.883 11.884 11.883h15.416v189.649h-15.417c-6.553 0-11.884 5.331-11.884 11.883v15.097c0 14.37-11.69 26.06-26.06 26.06h-18.446c-6.553 0-11.884 5.331-11.884 11.883v15.417h-179.845v-109.76c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v109.76h-11.032c-15.691 0-29.854 6.632-39.863 17.227v-314.025c0-28.633 22.598-52.085 50.896-53.464v210.502c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-210.569h85.719c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-93.219-8.442c-35.815 0-64.953 29.138-64.953 64.953v349.675s1.102 16.395 1.462 18.101c5.688 24.227 27.463 42.325 53.401 42.325h198.914v25.127c0 2.704 1.456 5.199 3.81 6.529 1.147.648 2.419.971 3.69.971 1.341 0 2.68-.359 3.868-1.075l20.9-12.583 20.07 12.522c2.314 1.443 5.226 1.517 7.608.195 2.383-1.322 3.861-3.833 3.861-6.558v-25.127h34.345c4.143 0 7.5-3.358 7.5-7.5v-446.569c0-11.572-9.414-20.986-20.986-20.986zm-6.313 80.34v-11.98c0-22.64-18.419-41.06-41.06-41.06h-15.33v-12.3h61.863c3.764 0 6.826 3.062 6.826 6.826v58.514zm-56.39 272.689h15.33c22.641 0 41.06-18.419 41.06-41.06v-11.98h12.3v59.354c0 3.301-2.686 5.986-5.986 5.986h-62.703v-12.3zm26.845 133.634-12.501-7.799c-2.395-1.493-5.423-1.517-7.838-.062l-13.47 8.11v-83.049h33.809zm41.844-26.608h-26.845v-8.534h26.845zm0-23.534h-26.845v-32.658h26.845zm0-47.658h-34.345-48.809-206.414c-17.274 0-31.328 14.054-31.328 31.329 0 17.274 14.054 31.329 31.328 31.329h65.924c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-65.924c-9.003 0-16.328-7.325-16.328-16.329s7.325-16.329 16.328-16.329h198.915v32.658h-102.991c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h102.991v8.534h-198.914c-21.98 0-39.863-17.883-39.863-39.863s17.883-39.863 39.863-39.863h213.378 70.203 5.986z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(3)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's accesibility checklist to make your web presence accessible.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-54-22 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div id=\"link-55-23\" class=\"sc-esYiGF jVBkPl Link-parent-container references-link\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-55-23"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-55-23\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-55-23\" href=\"https://docs.google.com/presentation/d/116f0Up83qDONgrN_62sSxXRNnoE3A-BWCLsR2F2-Aag/edit#slide=id.g80d03e662f_0_175\" target=\"_blank\" title=\"Click this link to go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility.\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div class=\"sc-fXSgeo hzryvK\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-fXSgeo.hzryvK"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<svg xmlnsSvgjs=\"http://svgjs.com/svgjs\" version=\"1.1\" width=\"50\" height=\"50\" x=\"0\" y=\"0\" viewBox=\"0 0 507.682 507.682\" xml:space=\"preserve\" class=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"]"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 294.695c-1.919 0-3.839-.732-5.304-2.197l-94.164-94.164c-2.929-2.929-2.929-7.678 0-10.606l94.164-94.164c1.407-1.406 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l94.164 94.164c2.929 2.929 2.929 7.678 0 10.606l-94.164 94.164c-1.465 1.465-3.385 2.197-5.304 2.197zm-83.558-101.664 83.558 83.558 83.558-83.558-83.558-83.558z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(1)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 235.344c-1.989 0-3.896-.79-5.304-2.197l-34.813-34.813c-2.929-2.929-2.929-7.678 0-10.606l34.813-34.813c1.407-1.407 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l34.814 34.813c1.406 1.406 2.196 3.314 2.196 5.303s-.79 3.897-2.196 5.303l-34.814 34.813c-1.408 1.407-3.315 2.197-5.304 2.197zm-24.206-42.313 24.206 24.207 24.207-24.207-24.207-24.206z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(2)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m412.57 0h-70.203-71.627c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h64.127v15.417c0 6.553 5.331 11.883 11.884 11.883h18.446c14.369 0 26.06 11.69 26.06 26.06v15.097c0 6.552 5.331 11.883 11.884 11.883h15.416v189.649h-15.417c-6.553 0-11.884 5.331-11.884 11.883v15.097c0 14.37-11.69 26.06-26.06 26.06h-18.446c-6.553 0-11.884 5.331-11.884 11.883v15.417h-179.845v-109.76c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v109.76h-11.032c-15.691 0-29.854 6.632-39.863 17.227v-314.025c0-28.633 22.598-52.085 50.896-53.464v210.502c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-210.569h85.719c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-93.219-8.442c-35.815 0-64.953 29.138-64.953 64.953v349.675s1.102 16.395 1.462 18.101c5.688 24.227 27.463 42.325 53.401 42.325h198.914v25.127c0 2.704 1.456 5.199 3.81 6.529 1.147.648 2.419.971 3.69.971 1.341 0 2.68-.359 3.868-1.075l20.9-12.583 20.07 12.522c2.314 1.443 5.226 1.517 7.608.195 2.383-1.322 3.861-3.833 3.861-6.558v-25.127h34.345c4.143 0 7.5-3.358 7.5-7.5v-446.569c0-11.572-9.414-20.986-20.986-20.986zm-6.313 80.34v-11.98c0-22.64-18.419-41.06-41.06-41.06h-15.33v-12.3h61.863c3.764 0 6.826 3.062 6.826 6.826v58.514zm-56.39 272.689h15.33c22.641 0 41.06-18.419 41.06-41.06v-11.98h12.3v59.354c0 3.301-2.686 5.986-5.986 5.986h-62.703v-12.3zm26.845 133.634-12.501-7.799c-2.395-1.493-5.423-1.517-7.838-.062l-13.47 8.11v-83.049h33.809zm41.844-26.608h-26.845v-8.534h26.845zm0-23.534h-26.845v-32.658h26.845zm0-47.658h-34.345-48.809-206.414c-17.274 0-31.328 14.054-31.328 31.329 0 17.274 14.054 31.329 31.328 31.329h65.924c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-65.924c-9.003 0-16.328-7.325-16.328-16.329s7.325-16.329 16.328-16.329h198.915v32.658h-102.991c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h102.991v8.534h-198.914c-21.98 0-39.863-17.883-39.863-39.863s17.883-39.863 39.863-39.863h213.378 70.203 5.986z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(3)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's WCAG 2.1 training slide deck to learn more about Indeed's philosophy on accessibility.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-55-23 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div id=\"link-56-24\" class=\"sc-esYiGF jVBkPl Link-parent-container references-link\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-56-24"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-56-24\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-56-24\" href=\"https://wiki.indeed.com/pages/viewpage.action?spaceKey=a11y&amp;title=Accessibility+FAQ\" target=\"_blank\" title=\"Click this link to go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence.\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div class=\"sc-fXSgeo hzryvK\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-fXSgeo.hzryvK"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<svg xmlnsSvgjs=\"http://svgjs.com/svgjs\" version=\"1.1\" width=\"50\" height=\"50\" x=\"0\" y=\"0\" viewBox=\"0 0 507.682 507.682\" xml:space=\"preserve\" class=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"]"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 294.695c-1.919 0-3.839-.732-5.304-2.197l-94.164-94.164c-2.929-2.929-2.929-7.678 0-10.606l94.164-94.164c1.407-1.406 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l94.164 94.164c2.929 2.929 2.929 7.678 0 10.606l-94.164 94.164c-1.465 1.465-3.385 2.197-5.304 2.197zm-83.558-101.664 83.558 83.558 83.558-83.558-83.558-83.558z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(1)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 235.344c-1.989 0-3.896-.79-5.304-2.197l-34.813-34.813c-2.929-2.929-2.929-7.678 0-10.606l34.813-34.813c1.407-1.407 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l34.814 34.813c1.406 1.406 2.196 3.314 2.196 5.303s-.79 3.897-2.196 5.303l-34.814 34.813c-1.408 1.407-3.315 2.197-5.304 2.197zm-24.206-42.313 24.206 24.207 24.207-24.207-24.207-24.206z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(2)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m412.57 0h-70.203-71.627c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h64.127v15.417c0 6.553 5.331 11.883 11.884 11.883h18.446c14.369 0 26.06 11.69 26.06 26.06v15.097c0 6.552 5.331 11.883 11.884 11.883h15.416v189.649h-15.417c-6.553 0-11.884 5.331-11.884 11.883v15.097c0 14.37-11.69 26.06-26.06 26.06h-18.446c-6.553 0-11.884 5.331-11.884 11.883v15.417h-179.845v-109.76c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v109.76h-11.032c-15.691 0-29.854 6.632-39.863 17.227v-314.025c0-28.633 22.598-52.085 50.896-53.464v210.502c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-210.569h85.719c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-93.219-8.442c-35.815 0-64.953 29.138-64.953 64.953v349.675s1.102 16.395 1.462 18.101c5.688 24.227 27.463 42.325 53.401 42.325h198.914v25.127c0 2.704 1.456 5.199 3.81 6.529 1.147.648 2.419.971 3.69.971 1.341 0 2.68-.359 3.868-1.075l20.9-12.583 20.07 12.522c2.314 1.443 5.226 1.517 7.608.195 2.383-1.322 3.861-3.833 3.861-6.558v-25.127h34.345c4.143 0 7.5-3.358 7.5-7.5v-446.569c0-11.572-9.414-20.986-20.986-20.986zm-6.313 80.34v-11.98c0-22.64-18.419-41.06-41.06-41.06h-15.33v-12.3h61.863c3.764 0 6.826 3.062 6.826 6.826v58.514zm-56.39 272.689h15.33c22.641 0 41.06-18.419 41.06-41.06v-11.98h12.3v59.354c0 3.301-2.686 5.986-5.986 5.986h-62.703v-12.3zm26.845 133.634-12.501-7.799c-2.395-1.493-5.423-1.517-7.838-.062l-13.47 8.11v-83.049h33.809zm41.844-26.608h-26.845v-8.534h26.845zm0-23.534h-26.845v-32.658h26.845zm0-47.658h-34.345-48.809-206.414c-17.274 0-31.328 14.054-31.328 31.329 0 17.274 14.054 31.329 31.328 31.329h65.924c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-65.924c-9.003 0-16.328-7.325-16.328-16.329s7.325-16.329 16.328-16.329h198.915v32.658h-102.991c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h102.991v8.534h-198.914c-21.98 0-39.863-17.883-39.863-39.863s17.883-39.863 39.863-39.863h213.378 70.203 5.986z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(3)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's Accessibility Frequently Asked Questions wiki page in confluence.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-56-24 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div id=\"link-57-25\" class=\"sc-esYiGF jVBkPl Link-parent-container references-link\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-57-25"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-57-25\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-57-25\" href=\"https://wiki.indeed.com/display/a11y/Accessibility+testing+with+axe-core\" target=\"_blank\" title=\"Click this link to go to Indeed's Accessibility testing with axe-core wiki page in confluence.\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div class=\"sc-fXSgeo hzryvK\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-fXSgeo.hzryvK"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<svg xmlnsSvgjs=\"http://svgjs.com/svgjs\" version=\"1.1\" width=\"50\" height=\"50\" x=\"0\" y=\"0\" viewBox=\"0 0 507.682 507.682\" xml:space=\"preserve\" class=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"]"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 294.695c-1.919 0-3.839-.732-5.304-2.197l-94.164-94.164c-2.929-2.929-2.929-7.678 0-10.606l94.164-94.164c1.407-1.406 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l94.164 94.164c2.929 2.929 2.929 7.678 0 10.606l-94.164 94.164c-1.465 1.465-3.385 2.197-5.304 2.197zm-83.558-101.664 83.558 83.558 83.558-83.558-83.558-83.558z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(1)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 235.344c-1.989 0-3.896-.79-5.304-2.197l-34.813-34.813c-2.929-2.929-2.929-7.678 0-10.606l34.813-34.813c1.407-1.407 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l34.814 34.813c1.406 1.406 2.196 3.314 2.196 5.303s-.79 3.897-2.196 5.303l-34.814 34.813c-1.408 1.407-3.315 2.197-5.304 2.197zm-24.206-42.313 24.206 24.207 24.207-24.207-24.207-24.206z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(2)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m412.57 0h-70.203-71.627c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h64.127v15.417c0 6.553 5.331 11.883 11.884 11.883h18.446c14.369 0 26.06 11.69 26.06 26.06v15.097c0 6.552 5.331 11.883 11.884 11.883h15.416v189.649h-15.417c-6.553 0-11.884 5.331-11.884 11.883v15.097c0 14.37-11.69 26.06-26.06 26.06h-18.446c-6.553 0-11.884 5.331-11.884 11.883v15.417h-179.845v-109.76c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v109.76h-11.032c-15.691 0-29.854 6.632-39.863 17.227v-314.025c0-28.633 22.598-52.085 50.896-53.464v210.502c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-210.569h85.719c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-93.219-8.442c-35.815 0-64.953 29.138-64.953 64.953v349.675s1.102 16.395 1.462 18.101c5.688 24.227 27.463 42.325 53.401 42.325h198.914v25.127c0 2.704 1.456 5.199 3.81 6.529 1.147.648 2.419.971 3.69.971 1.341 0 2.68-.359 3.868-1.075l20.9-12.583 20.07 12.522c2.314 1.443 5.226 1.517 7.608.195 2.383-1.322 3.861-3.833 3.861-6.558v-25.127h34.345c4.143 0 7.5-3.358 7.5-7.5v-446.569c0-11.572-9.414-20.986-20.986-20.986zm-6.313 80.34v-11.98c0-22.64-18.419-41.06-41.06-41.06h-15.33v-12.3h61.863c3.764 0 6.826 3.062 6.826 6.826v58.514zm-56.39 272.689h15.33c22.641 0 41.06-18.419 41.06-41.06v-11.98h12.3v59.354c0 3.301-2.686 5.986-5.986 5.986h-62.703v-12.3zm26.845 133.634-12.501-7.799c-2.395-1.493-5.423-1.517-7.838-.062l-13.47 8.11v-83.049h33.809zm41.844-26.608h-26.845v-8.534h26.845zm0-23.534h-26.845v-32.658h26.845zm0-47.658h-34.345-48.809-206.414c-17.274 0-31.328 14.054-31.328 31.329 0 17.274 14.054 31.329 31.328 31.329h65.924c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-65.924c-9.003 0-16.328-7.325-16.328-16.329s7.325-16.329 16.328-16.329h198.915v32.658h-102.991c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h102.991v8.534h-198.914c-21.98 0-39.863-17.883-39.863-39.863s17.883-39.863 39.863-39.863h213.378 70.203 5.986z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(3)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's Accessibility testing with axe-core wiki page in confluence.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-57-25 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div id=\"link-58-26\" class=\"sc-esYiGF jVBkPl Link-parent-container references-link\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-58-26"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<a id=\"link-link-58-26\" class=\"sc-fjvvzt cfCqhH Link references-link\" data-cy=\"link-link-58-26\" href=\"https://wiki.indeed.com/display/a11y/DEG+Accessibility\" target=\"_blank\" title=\"Click this link to go to Cypress.io to learn everything you need to know about Cypress.  The docs are exstensive and always updated with current info.\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<div class=\"sc-fXSgeo hzryvK\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-fXSgeo.hzryvK"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<svg xmlnsSvgjs=\"http://svgjs.com/svgjs\" version=\"1.1\" width=\"50\" height=\"50\" x=\"0\" y=\"0\" viewBox=\"0 0 507.682 507.682\" xml:space=\"preserve\" class=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"]"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<g>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 294.695c-1.919 0-3.839-.732-5.304-2.197l-94.164-94.164c-2.929-2.929-2.929-7.678 0-10.606l94.164-94.164c1.407-1.406 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l94.164 94.164c2.929 2.929 2.929 7.678 0 10.606l-94.164 94.164c-1.465 1.465-3.385 2.197-5.304 2.197zm-83.558-101.664 83.558 83.558 83.558-83.558-83.558-83.558z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(1)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m278.173 235.344c-1.989 0-3.896-.79-5.304-2.197l-34.813-34.813c-2.929-2.929-2.929-7.678 0-10.606l34.813-34.813c1.407-1.407 3.314-2.197 5.304-2.197 1.989 0 3.897.79 5.304 2.197l34.814 34.813c1.406 1.406 2.196 3.314 2.196 5.303s-.79 3.897-2.196 5.303l-34.814 34.813c-1.408 1.407-3.315 2.197-5.304 2.197zm-24.206-42.313 24.206 24.207 24.207-24.207-24.207-24.206z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(2)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<path d=\"m412.57 0h-70.203-71.627c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h64.127v15.417c0 6.553 5.331 11.883 11.884 11.883h18.446c14.369 0 26.06 11.69 26.06 26.06v15.097c0 6.552 5.331 11.883 11.884 11.883h15.416v189.649h-15.417c-6.553 0-11.884 5.331-11.884 11.883v15.097c0 14.37-11.69 26.06-26.06 26.06h-18.446c-6.553 0-11.884 5.331-11.884 11.883v15.417h-179.845v-109.76c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v109.76h-11.032c-15.691 0-29.854 6.632-39.863 17.227v-314.025c0-28.633 22.598-52.085 50.896-53.464v210.502c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-210.569h85.719c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-93.219-8.442c-35.815 0-64.953 29.138-64.953 64.953v349.675s1.102 16.395 1.462 18.101c5.688 24.227 27.463 42.325 53.401 42.325h198.914v25.127c0 2.704 1.456 5.199 3.81 6.529 1.147.648 2.419.971 3.69.971 1.341 0 2.68-.359 3.868-1.075l20.9-12.583 20.07 12.522c2.314 1.443 5.226 1.517 7.608.195 2.383-1.322 3.861-3.833 3.861-6.558v-25.127h34.345c4.143 0 7.5-3.358 7.5-7.5v-446.569c0-11.572-9.414-20.986-20.986-20.986zm-6.313 80.34v-11.98c0-22.64-18.419-41.06-41.06-41.06h-15.33v-12.3h61.863c3.764 0 6.826 3.062 6.826 6.826v58.514zm-56.39 272.689h15.33c22.641 0 41.06-18.419 41.06-41.06v-11.98h12.3v59.354c0 3.301-2.686 5.986-5.986 5.986h-62.703v-12.3zm26.845 133.634-12.501-7.799c-2.395-1.493-5.423-1.517-7.838-.062l-13.47 8.11v-83.049h33.809zm41.844-26.608h-26.845v-8.534h26.845zm0-23.534h-26.845v-32.658h26.845zm0-47.658h-34.345-48.809-206.414c-17.274 0-31.328 14.054-31.328 31.329 0 17.274 14.054 31.329 31.328 31.329h65.924c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-65.924c-9.003 0-16.328-7.325-16.328-16.329s7.325-16.329 16.328-16.329h198.915v32.658h-102.991c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h102.991v8.534h-198.914c-21.98 0-39.863-17.883-39.863-39.863s17.883-39.863 39.863-39.863h213.378 70.203 5.986z\" fill=\"#ff581f\" data-original=\"#000000\" data-ol-has-click-handler=\"\">",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-fXSgeo.hzryvK > svg[viewBox=\"0 0 507.682 507.682\"][width=\"50\"][height=\"50\"] > g > g > path[data-ol-has-click-handler=\"\"][fill=\"#ff581f\"]:nth-child(3)"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
-            "html": "<p class=\"sc-JrDLc kBVgKa Link-message-container\">Go to Indeed's Delivery Engineering Accessibility Hub wiki page in confluence.</p>",
-            "impact": null,
-            "none": [],
-            "target": [
-              "#link-link-58-26 > .sc-JrDLc.kBVgKa.Link-message-container"
-            ]
-          },
-          {
-            "all": [],
-            "any": [
-              {
-                "data": {
-                  "isIframe": false
-                },
-                "id": "region",
-                "impact": "moderate",
-                "message": "All page content is contained by landmarks",
-                "relatedNodes": []
-              }
-            ],
             "html": "<div class=\"sc-gFVvzn fRlFUy\">",
             "impact": null,
             "none": [],
@@ -51800,7 +50402,7 @@
     "testRunner": {
       "name": "axe"
     },
-    "timestamp": "2025-04-30T09:05:15.217Z",
+    "timestamp": "2025-05-03T19:31:21.493Z",
     "toolOptions": {
       "reporter": "v1"
     },
