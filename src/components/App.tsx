@@ -24,6 +24,7 @@ import DynamicLinkText from './foundations/link-dynamic-text/index';
 import TextLink from './foundations/text-link/index';
 import InfoLink from './foundations/info-link/index';
 import VisibleInfoLink from './foundations/link-visible-info/index';
+import HeaderLinkBar from './foundations/header-link-bar';
 import LearnIcon from '-!svg-react-loader?name=Icon!../../Icons/mind.svg';
 import SolutionIcon from '-!svg-react-loader?name=Icon!../../Icons/solution.svg';
 import InnovationIcon from '-!svg-react-loader?name=Icon!../../Icons/lightbulb-gear.svg';
@@ -35,6 +36,7 @@ import OpenBookWithBulbIcon from '-!svg-react-loader?name=Icon!../../Icons/open-
 import ComputerWithCap from '-!svg-react-loader?name=Icon!../../Icons/computer-with-cap.svg';
 import ButtonIconDropdown from './foundations/button-icon-dropdown/index';
 import referenceData from './../../axe/infoLinkData/infoData.json';
+import { headerLinks } from '../utils/headerLinks';
 
 interface NewItem {
     description: string;
@@ -200,78 +202,16 @@ const App = () => {
                     </H1>
                 </Div>
                 <NavContainer className="nav-links-container">
-                    <TextLink
-                        id="link-12"
-                        title="link to accessible forms references"
-                        className="form-reference-link"
-                        linkText="Intro"
-                        onClick={handleScrollIntro}
-                    >
-                        <LearnIcon />
-                    </TextLink>
-                    <TextLink
-                        id="link-2"
-                        title="link to accessible forms references"
-                        className="form-reference-link"
-                        linkText="Forms"
-                        onClick={handleScroll}
-                    >
-                        <SolutionIcon />
-                    </TextLink>
-                    <TextLink
-                        id="link-3"
-                        title="link to accessible forms references"
-                        className="form-reference-link"
-                        linkText="Headings"
-                        onClick={handleScrollHeadings}
-                    >
-                        <OpenBookWithBulbIcon />
-                    </TextLink>
-                    <TextLink
-                        id="link-4"
-                        title="link to accessible forms references"
-                        className="form-reference-link"
-                        linkText="Contrast"
-                        onClick={handleScrollContrast}
-                    >
-                        <InnovationIcon />
-                    </TextLink>
-                    <TextLink
-                        id="link-5"
-                        title="link to accessible forms references"
-                        className="form-reference-link"
-                        linkText="Font Size"
-                        onClick={handleScrollFontSizeContrast}
-                    >
-                        <IdeaIcon />
-                    </TextLink>
-                    <TextLink
-                        id="link-6"
-                        title="link to references"
-                        className="references-reference-link"
-                        linkText="References"
-                        onClick={handleScrollReference}
-                    >
-                        <ResourcesIcon />
-                    </TextLink>
-                    <TextLink
-                        id="link-7"
-                        title="link to references"
-                        className="references-reference-link"
-                        linkText="Final Challenge"
-                        onClick={handleScrollFinalChallenge}
-                    >
-                        <ComputerWithCap />
-                    </TextLink>
-                    <TextLink
-                        id="link-8"
-                        title="link to references"
-                        className="references-reference-link"
-                        linkText="Error Reports"
-                        onClick={handleScrollPa11yReports}
-                    >
-                        <ComputerWithCap />
-                    </TextLink>
+                    <HeaderLinkBar
+                        onClickIntro={handleScrollIntro}
+                        onClickScroll={handleScroll}
+                        onClickScrollHeading={handleScrollHeadings}
+                        onClickScrollContrast={handleScrollContrast}
+                        onClickFontSizeContrast={handleScrollFontSizeContrast}
+                        onClickFinalChallenge={handleScrollFinalChallenge}
+                        onClickPa11yReports={handleScrollPa11yReports}
+                        onClickReference={handleScrollReference}
+                    />
                 </NavContainer>
             </Header>
             <HomeTargetContainer>
@@ -1734,6 +1674,9 @@ const NavContainer = styled.nav`
     padding: 1.5rem;
     & .Link-parent-container {
         justify-content: space-around;
+    }
+    @media (max-width: 1122px) {
+        overflow: auto;
     }
 `;
 
